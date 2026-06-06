@@ -1,0 +1,34 @@
+{
+  "name": "authentication_system",
+  "version": "1.0.0",
+  "description": "This is My First Auth System",
+  "keywords": [
+    "Auth-System",
+    "Authentication"
+  ],
+  "license": "ISC",
+  "author": "Zufair Shafique",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "dotgitignore": "^2.1.0",
+    "express": "^5.2.1",
+    "gitignore": "^0.7.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
